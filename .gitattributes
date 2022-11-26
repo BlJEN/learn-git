@@ -34,10 +34,10 @@
 # git branch
 # get the list of braches 
 
-# git feature -b "branch name" 
-# create a new branch 
+# git checkout -b "branch name" 
+# create a new branch and switches to it
 
-# git feature "branch name" 
+# git checkout "branch name" 
 # switch to the provided branch 
 
 
