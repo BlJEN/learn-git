@@ -40,6 +40,9 @@
 # git checkout "branch name" 
 # switch to the provided branch 
 
+# git stash -u 
+# saves your code for later use - then once you finish changing, you can either pop or apply those changes
+
 
 
 
