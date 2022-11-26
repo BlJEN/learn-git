@@ -51,7 +51,5 @@
 
 # use the code provided by github to add to repository
 
-
-
-
-
+# git push -u origin "branch name"
+# update the files on the github branch
