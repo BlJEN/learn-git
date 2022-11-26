@@ -1,0 +1,35 @@
+# '*' gets all the files that aren't gitignored
+# text=auto sets all the files in the remote repository to 'LF' while working tree is left untouched
+# this leaves binary files untouched  
+* text=auto 
+
+# Storing the git commands: 
+
+# git init 
+# initialized the git project 
+
+# rm -r -fo .git 
+# remvoes the entire git project
+
+# git add . 
+# to all the files to the stage except gitingore to the git index - '.' means all files, 
+# can add specific files to provided its path  
+# can upload multiple files too e.g - git add index.js style.css index.html 
+
+# !Git index is the staging area between working tree and the remote repository where 
+#   the files from your working directory are hashed and stored as objects in index  
+
+# git commit -m "message" 
+# commit the staged files in the .git folder where the current stage of staged files is safely stored 
+# the -m lets you include message - which could be the title and the deatils of the commit. 
+
+# git files-ls 
+# get the list of files in .git folder 
+
+# git files-ls index.js
+# returns index.js if it exists - probably has other uses, but could be used to check if the file exists in a large directory 
+
+# !branches in git - can create and commit to a branch to use the code of main line of the code without the code of the branch impacting it   
+
+# git branch
+# get the list of braches 
