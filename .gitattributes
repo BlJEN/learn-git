@@ -43,6 +43,15 @@
 # git stash -u 
 # saves your code for later use - then once you finish changing, you can either pop or apply those changes
 
+# git merge "branch name" 
+# will merege the the the given branch on the current branch 
+
+# git merge "branch name" --squash
+# condenses the git history - instead of adding all the commits to the merged brach, it stores it all in a single commit without effecting the commits in the other branch
+
+# use the code provided by github to add to repository
+
+
 
 
 
